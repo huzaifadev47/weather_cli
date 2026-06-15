@@ -34,3 +34,29 @@ dart run
 ```
 
 ## Usage
+
+Enter City (or q to quit): Lahore
+City            : Lahore
+
+Temperature     : 34.2 °C
+
+Feels Like      : 38.1 °C
+
+Description     : clear sky
+
+Humidity        : 40 %
+
+Wind            : 3.5 m/s
+
+Fetched in      : 312 ms
+
+## Tech Stack
+- Dart
+- `http` package
+- OpenWeatherMap API
+
+## Note
+`lib/config.dart` is excluded via `.gitignore` to protect the API key.
+
+## Author
+[huzaifadev47](https://github.com/huzaifadev47)
